@@ -1,0 +1,21 @@
+# personal notes — never push
+PERSONAL_README.md
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# deps
+node_modules/
+
+# local OS junk
+.DS_Store
+
+# agent traces (assessment artifact, optional)
+agent-sessions/
+
+# large raw tool caches; keep computed graph for reviewers
+data/github_tools.json
+data/googlesuper_tools.json
+data/dependency_edges.json
